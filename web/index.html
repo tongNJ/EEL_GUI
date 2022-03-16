@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="static/normalize.css">
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+  <!-- <link rel="stylesheet" type="text/css" href="test.css"> -->
+  <title>Vitruvius Daily Check</title>
+
+
+
+</head>
+<body>
+  <div class="titleBar">
+    <h1 id="myeel">Vitruvius Daily Check</h1>
+  </div>
+  <div class="hedging">
+      <h2 id="hedgingMonitor">Hedging Monitor</h2>
+  </div>
+  <span id="input">Please enter NAV date </span><input type="date" id="navDate"><br>
+  <span id="input">Please enter previous NAV date   </span><input type="date" id="prenavDate"><br>
+  <button class="button"><span id="effect">Generate Report</span></button><br>
+ 
+
+  <input type="text" value="Enter NAV Date"/>
+  <input type="date" id="navDate">
+  <button id="mybtn">Get Data</button>
+  <button id="toPy">Send Date to Python</button>
+  <div class="content" id="'data"><table></table></div>
+</body>
+
+<script type="text/javascript" src="/eel.js"></script>
+<script src="index.js"></script>
+</html>
